@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Volunteer Login</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+  </head>
+  <link rel="stylesheet" href="/CSS files/style.css" />
+  <body>
+    <div class="loginRegisterContainer">
+      <div class="loginBox">
+        <img src="/images/loginLogo2.png" alt="loginLogo" class="loginLogo">
+        <div class="bottomLR">VOLUNTEER</div>
+        <form method="post" class="loginForm">
+          <label for="volunteer-choice"></label>
+          <input list="volunteerNo" class="inputFields" id="volunteer-choice" name="volunteer-choice" placeholder="Enter Username"/>
+          <datalist id="volunteerNo">
+              <option value="volunteer 1">
+              <option value="volunteer 2">
+              <option value="volunteer 3">
+          </datalist>
+          <br><br>
+          <input type="password" name="PassWord" class="inputFields" placeholder="Enter Your Password"><br>
+          <input type="submit" value="Sign in" class="formbtn"><br>
+          <p class="bottomLR">For becoming volunteer you have to contact through query forum</p><br>
+          <p class="bottomLR"><a href="index.html" class="LoginRegisterNow">Home</a></p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

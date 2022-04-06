@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="stylesheet" href="CSS files/style.css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <div id="header"></div>
+    <main>
+        <div class="container">
+            <img src="/images/userIcon.png" alt="User" class="UIcon">
+            <div class="hello">Hello User</div>
+            <hr>
+            <h1 class="todayText">What would you like to do today?</h1>
+            <div class="wltdt">
+                <div class="Dbox">
+                    <a href="donation.html">Helping someone by donating medicines</a>
+                </div>
+                <img src="/images/orIcon.png" alt="OR" class="betIcon">
+                <div class="Rbox">
+                    <a href="request.html">Needed a medicine</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="footer"></div>
+    <script> 
+        $(function(){
+          $("#header").load("header.html"); 
+          $("#footer").load("footer.html"); 
+        });
+    </script>
+</body>
+</html>
