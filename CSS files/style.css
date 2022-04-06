@@ -246,10 +246,10 @@ a{
     height:50vh;
     width:95vw;
     left:-99vw;
-    /*animation-name:ghi;
+    animation-name:ghi;
     animation-duration: 10s;
     animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;*/
+    animation-iteration-count: infinite;
 }
 .lightImg{
     position:absolute;
@@ -257,12 +257,12 @@ a{
     height:50vh;
     width:95vw;
     left:2vw;
-    /*animation-name:abc;
+    animation-name:abc;
     animation-duration: 10s;
     animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;*/
+    animation-iteration-count: infinite;
 }
-/*@keyframes abc{
+@keyframes abc{
     0%{
         left:2vw;
     }
@@ -277,7 +277,7 @@ a{
     100%{
         left:2vw;
     }
-}*/
+}
 footer{
     background-color:indigo;
     color:white;
