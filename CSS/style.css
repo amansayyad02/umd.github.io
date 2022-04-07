@@ -4,7 +4,7 @@
     padding: 0;
 }
 header{
-    background-color:indigo;
+    background-color:black;
     color:white;
     height:12vh;
     width:100%;
@@ -282,7 +282,7 @@ a{
     }
 }
 footer{
-    background-color:indigo;
+    background-color:black;
     color:white;
     height:15vh;
     width:100%;
